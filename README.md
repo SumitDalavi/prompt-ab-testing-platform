@@ -1,18 +1,23 @@
-# Prompt Versioning and A/B Testing Platform
+# prompt-ab-testing-platform
 
-> A platform that treats prompts as versioned artifacts, splits traffic between variants, measures performance across custom metrics, and declares statistically significant winners.
+Platform for conducting A/B tests on system prompts, measuring generation quality and conversion rates.
 
-## 🛠️ Tech Stack
-- **Core Technology**: TypeScript, PostgreSQL, SciPy (via Python worker)
-- **Architecture**: Microservices, Event-Driven, AI-Native
+## Features
+- Fully automated workflow.
+- Secure, scalable architecture.
+- Built-in telemetry and observability.
 
-## 🚀 Step-by-Step Setup
+## Technologies
+- Node.js, PostgreSQL
+
+## Getting Started
+Ensure you have the required dependencies installed on your system.
+
 ```bash
-git clone https://github.com/SumitDalavi/prompt-ab-testing-platform.git
-cd prompt-ab-testing-platform
-docker-compose up -d --build
+# Setup & Test
+npm install
+npm test
 ```
 
-## 👨‍💻 Author
-**Sumit Dalavi** — Senior DevSecOps / Platform Engineer
-[GitHub](https://github.com/SumitDalavi) | [LinkedIn](https://in.linkedin.com/in/sumit-dalavi-762838129)
+## Architecture
+Please see the [Architecture Document](docs/architecture.md) for sequence diagrams and system design details.
