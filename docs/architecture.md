@@ -14,7 +14,7 @@ API->>DB: Record Success
 ```
 
 ## Component Breakdown
-- **Core Technology**: Node.js, PostgreSQL
+- **Core Technology**: Node.js, SQLite (Embedded for Local Validation)
 - **Design Paradigm**: Emphasizes high availability, fault tolerance, and security boundaries.
 
 ## Security & Scaling Considerations
