@@ -1,6 +1,7 @@
 # prompt-ab-testing-platform
 
-Platform for conducting A/B tests on system prompts, measuring generation quality and conversion rates.
+> **Maturity:** Partial Prototype
+> _Platform for conducting A/B tests on system prompts, measuring generation quality and conversion rates._
 
 ## Features
 - Fully automated workflow.
@@ -56,9 +57,17 @@ npm run test
 
 ---
 
-## 5. Mock Boundaries (Audit Compliance)
+## Mock Boundaries (Honest Scope)
 
-To comply with strict portfolio audit requirements, we explicitly define the boundaries of what is real vs. simulated:
+| What | Status | Details |
+|---|---|---|
+| Cohort Assignment | **Real** | Hashing logic accurately distributes users based on Session ID. |
+| Statistical Engine | **Real** | Performs Z-test / T-test for significance on conversion metrics. |
+| Event Streaming | **Mocked** | Writes telemetry to SQLite instead of a real Kafka/Kinesis stream. |
 
-- **Fully Implemented:** The core state machine, API routes, database schemas, and integration tests are real and fully functional.
-- **Mocked / Demo Mode:** None. Uses an embedded SQLite schema to track cohort assignment.
+## 📚 Documentation
+
+- [Architecture](docs/ARCHITECTURE.md) — System diagram and component details
+- [Runbook](docs/runbook.md) — Setup, commands, and expected outputs
+- [Decisions](docs/decisions.md) — ADRs for statistical methods
+- [Changelog](docs/changelog.md) — Change history
