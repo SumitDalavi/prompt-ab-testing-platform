@@ -1,6 +1,9 @@
+> **NOTE:** This repository is an archival lab or partial prototype. It is not actively maintained and should not be used as a reference for production-grade deployments or performance benchmarks.
+
+
 # prompt-ab-testing-platform
 
-> **Maturity:** Partial Prototype
+> **Maturity:** Functional Prototype
 > _Platform for conducting A/B tests on system prompts, measuring generation quality and conversion rates._
 
 ## Features
