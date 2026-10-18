@@ -4,6 +4,10 @@
 # prompt-ab-testing-platform
 
 [![Release](https://img.shields.io/github/v/release/SumitDalavi/prompt-ab-testing-platform?color=blue&logo=github)](https://github.com/SumitDalavi/prompt-ab-testing-platform/releases)
+[![Release Workflow](https://github.com/SumitDalavi/prompt-ab-testing-platform/actions/workflows/release.yml/badge.svg)](https://github.com/SumitDalavi/prompt-ab-testing-platform/actions/workflows/release.yml)
+[![SBOM](https://img.shields.io/badge/SBOM-SPDX%20JSON-blueviolet?logo=spdx)](https://github.com/SumitDalavi/prompt-ab-testing-platform/releases)
+
+[![Release](https://img.shields.io/github/v/release/SumitDalavi/prompt-ab-testing-platform?color=blue&logo=github)](https://github.com/SumitDalavi/prompt-ab-testing-platform/releases)
 [![SBOM](https://img.shields.io/badge/SBOM-SPDX%20JSON-blueviolet?logo=spdx)](https://github.com/SumitDalavi/prompt-ab-testing-platform/releases)
 
 > **Maturity:** Functional Prototype
@@ -78,7 +82,7 @@ npm run test
 - [Decisions](docs/decisions.md) — ADRs for statistical methods
 - [Changelog](docs/changelog.md) — Change history
 
-## Release & Verification
+## Release & Security Verification
 
 The project includes an automated DevSecOps release pipeline (`.github/workflows/release.yml`) triggered on semantic version tags (`v*.*.*`).
 
@@ -98,3 +102,10 @@ gh release view v0.1.0 --repo SumitDalavi/prompt-ab-testing-platform
 gh release download v0.1.0 --repo SumitDalavi/prompt-ab-testing-platform --pattern "sbom.spdx.json"
 cat sbom.spdx.json | jq .
 ```
+
+## Documentation
+
+- [Architecture](docs/ARCHITECTURE.md)
+- [Runbook](docs/runbook.md)
+- [Decisions](docs/decisions.md)
+- [Changelog](docs/changelog.md)
