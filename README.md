@@ -1,14 +1,14 @@
 > **NOTE:** This repository is an archival lab or partial prototype. It is not actively maintained and should not be used as a reference for production-grade deployments or performance benchmarks.
 
-
 # prompt-ab-testing-platform
 
-[![Release](https://img.shields.io/github/v/release/SumitDalavi/prompt-ab-testing-platform?color=blue&logo=github)](https://github.com/SumitDalavi/prompt-ab-testing-platform/releases)
+[![CI Pipeline](https://github.com/SumitDalavi/prompt-ab-testing-platform/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/SumitDalavi/prompt-ab-testing-platform/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/SumitDalavi/prompt-ab-testing-platform?color=0969da&label=release&logo=github)](https://github.com/SumitDalavi/prompt-ab-testing-platform/releases)
 [![Release Workflow](https://github.com/SumitDalavi/prompt-ab-testing-platform/actions/workflows/release.yml/badge.svg)](https://github.com/SumitDalavi/prompt-ab-testing-platform/actions/workflows/release.yml)
-[![SBOM](https://img.shields.io/badge/SBOM-SPDX%20JSON-blueviolet?logo=spdx)](https://github.com/SumitDalavi/prompt-ab-testing-platform/releases)
-
-[![Release](https://img.shields.io/github/v/release/SumitDalavi/prompt-ab-testing-platform?color=blue&logo=github)](https://github.com/SumitDalavi/prompt-ab-testing-platform/releases)
-[![SBOM](https://img.shields.io/badge/SBOM-SPDX%20JSON-blueviolet?logo=spdx)](https://github.com/SumitDalavi/prompt-ab-testing-platform/releases)
+[![GHCR Container](https://img.shields.io/badge/ghcr.io-v0.2.0-blue?logo=docker&logoColor=white)](https://github.com/SumitDalavi/prompt-ab-testing-platform/pkgs/container/prompt-ab-testing-platform)
+[![Node.js](https://img.shields.io/badge/Node.js-20+-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org)
+[![SBOM](https://img.shields.io/badge/SBOM-SPDX%202.3-blueviolet?logo=spdx)](https://github.com/SumitDalavi/prompt-ab-testing-platform/releases/tag/v0.2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 > **Maturity:** Functional Prototype
 > _Platform for conducting A/B tests on system prompts, measuring generation quality and conversion rates._
@@ -32,7 +32,6 @@ npm test
 
 ## Architecture
 Please see the [Architecture Document](docs/architecture.md) for sequence diagrams and system design details.
-
 
 ---
 
