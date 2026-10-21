@@ -8,8 +8,7 @@
 [![SBOM](https://img.shields.io/badge/SBOM-SPDX%202.3-blueviolet?logo=spdx)](https://github.com/SumitDalavi/prompt-ab-testing-platform/releases/tag/v0.2.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-> **Maturity:** Functional Prototype
-> _Platform for conducting A/B tests on system prompts, measuring generation quality and conversion rates._
+> Platform for conducting A/B tests on system prompts, measuring generation quality and conversion rates.
 
 ## Features
 - Fully automated workflow.
